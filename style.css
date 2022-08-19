@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-size: cover;
+}
+
+section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+div.iphone {
+    padding-top: 50px;
+    height: 627px;
+    width: 311px;
+    margin: auto;
+}
+
+picture {
+    display: inline;
+    float: right;
+}
+
+div.app {
+    float: top;
+    width: 65px;
+    height: 65px;
+    margin: 10px 10px 10px 0px;
+}
+
+.logo {
+    width: 100%;
+}
